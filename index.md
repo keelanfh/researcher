@@ -4,42 +4,14 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="sherlock.jpg">
+I am a university student who enjoys applying mathematical and computational tools to real-world social challenges. I am particularly interested in the movement of people in cities, and I find using data to improve public transport exciting. I have experience programming in Python and Java, and I am very numerate, but I also know the vital role that communication plays in effecting change.
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+## Education
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+I'm a second year undergraduate student of [Arts and Sciences](http://www.ucl.ac.uk/basc), a Liberal Arts programme at [University College London](http://www.ucl.ac.uk). My studies so far have included Quantum Physics, Philosophy and Mathematics.
 
-## Research Interest
+One of the most enjoyable pieces of work that I've completed was a project where I analysed information about my walking journey to and from UCL to see how I could optimise it. This involved making requests to [an API](https://dev.moves-app.com/) and teaching myself the necessary Python to process JSON data, clean and work with geospatial data, analyse it, and produce visualisations using matplotlib and [Mapbox Studio](https://www.mapbox.com/mapbox-studio/). I hope to upload the code for this project onto GitHub when I get round to it.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+## Find me
 
-## Publications
-
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
-
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+[Twitter](https://twitter.com/keelan_fh), [LinkedIn](https://linkedin.com/in/keelanfh) and [GitHub](https://github.com/keelanfh). I live in the UK, between London and Birmingham.
