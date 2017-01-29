@@ -1,9 +1,0 @@
-title: Keelan Fadden-Hopper
-url: "https://keelanfh.com"
-baseurl: "/researcher"
-
-tracking_id: #
-
-sass:
-    style: compressed
-    sass_dir: _sass
