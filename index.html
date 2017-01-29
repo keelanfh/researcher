@@ -14,6 +14,27 @@
 <p>One of the most enjoyable pieces of work that I've completed was a project where I analysed information about my walking journey to and from UCL to see how I could optimise it. This involved making requests to <a href="https://dev.moves-app.com/">an API</a> and teaching myself the necessary Python to process JSON data, clean and work with geospatial data, analyse it, and produce visualisations using matplotlib and <a href="https://www.mapbox.com/mapbox-studio/">Mapbox Studio</a>. I hope to upload the code for this project onto GitHub when I get round to it.</p>
 <h2 id="find-me">Find me</h2>
 <p><a href="https://twitter.com/keelan_fh">Twitter</a>, <a href="https://linkedin.com/in/keelanfh">LinkedIn</a> and <a href="https://github.com/keelanfh">GitHub</a>. I live in the UK, between London and Birmingham.</p>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eaf7f7",
+      "text": "#5c7291"
+    },
+    "button": {
+      "background": "#56cbdb",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "edgeless",
+  "type": "opt-out"
+})});
+</script>
+
 </body></html>
 
 <script>
@@ -24,5 +45,43 @@
 
   ga('create', 'UA-91020675-1', 'auto');
   ga('send', 'pageview');
+
+  // Set to the same value as the web property used on the site
+var gaProperty = 'UA-91020675-1';
+ 
+// Disable tracking if the opt-out cookie exists.
+var disableStr = 'ga-disable-' + gaProperty;
+if (document.cookie.indexOf(disableStr + '=true') > -1) {
+  window[disableStr] = true;
+}
+ 
+// Opt-out function
+function gaOptout() {
+  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+  window[disableStr] = true;
+}
+
+onInitialise: function (status) {
+  var type = this.options.type;
+  var didConsent = this.hasConsented();
+  if (type == 'opt-out' && !didConsent) {
+    gaOptout();
+  }
+},
+ 
+onStatusChange: function(status, chosenBefore) {
+  var type = this.options.type;
+  var didConsent = this.hasConsented();
+  if (type == 'opt-out' && !didConsent) {
+    gaOptout();
+  }
+},
+ 
+onRevokeChoice: function() {
+  var type = this.options.type;
+  if (type == 'opt-out') {
+    gaOptout();
+  }
+},
 
 </script>
