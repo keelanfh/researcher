@@ -1,6 +1,6 @@
 body {
   margin: 40px auto;
-  max-width: 750px;
+  max-width: 700px;
   line-height: 1.6;
   font-size: 16px;
   color: #000000;
@@ -16,6 +16,7 @@ body {
 .text {
   clear: both;
   position: relative;
+  margin: 40px 40px 40px 40px;
 }
 
 h1, h2, h3 {
@@ -30,18 +31,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-@media screen and (max-width: 800px) {
-  body{
-    text-align:left;
-  }
-  img{
-    display: none;
-  }
-  .titles{
-    text-align:center;
-  }
 }
 
 .menu {
@@ -61,12 +50,23 @@ h1 a {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.text {
-  margin: 40px 40px 40px 40px;
-}
-
 .white{
   width: 100%;
   background-color: #FFFFFF;
   clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  body{
+    text-align:left;
+  }
+  img{
+    display: none;
+  }
+  .titles{
+    text-align:center;
+  }
+  .text {
+    margin: 20px 20px 20px 20px;
+  }
 }
